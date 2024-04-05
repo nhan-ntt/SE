@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-05T06:09:54.507Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="4DIKDWRhMRyLr6mZR-2H" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-05T06:13:08.559Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="AAmlCUmGVOQoTnubJcJw" version="24.2.2" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="414" dy="255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="710" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,7 +128,7 @@
         <mxCell id="WXf0nSGTdmMs2Gm0gfLC-58" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="WXf0nSGTdmMs2Gm0gfLC-44" vertex="1">
           <mxGeometry x="15" y="150" width="10" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="WXf0nSGTdmMs2Gm0gfLC-45" value="SignInUI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="WXf0nSGTdmMs2Gm0gfLC-45" value="SignUpUI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="270" y="49" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WXf0nSGTdmMs2Gm0gfLC-46" value="User Controller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
