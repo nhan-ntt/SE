@@ -1,9 +1,256 @@
-<mxfile host="app.diagrams.net" modified="2024-04-06T11:24:38.194Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" version="24.2.2" etag="ITny-rx3uWB8-8so6kLV" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-06T11:26:16.898Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="zPEv0ax4rWnIKXXxwkTy" version="24.2.2" type="github">
   <diagram name="Page-1" id="bW-tGz2xO5n5cavBe2Tu">
-    <mxGraphModel>
+    <mxGraphModel dx="1461" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-1" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=40;height=20;" vertex="1" parent="1">
+          <mxGeometry x="70" y="210" width="630" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-2" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;[add genre]&lt;/span&gt;" style="text;html=1;" vertex="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry width="50" height="30" relative="1" as="geometry">
+            <mxPoint x="10" y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-3" value="" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry y="100" width="630" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-4" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;[delete genre]&lt;/span&gt;" style="text;html=1;" vertex="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry width="30" height="30" relative="1" as="geometry">
+            <mxPoint x="10" y="120" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-5" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;[modify genre]&lt;/span&gt;" style="text;html=1;" vertex="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry width="70" height="30" relative="1" as="geometry">
+            <mxPoint x="10" y="240" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-6" value="fill in genre information" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;noJump=1;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="95" y="30" as="sourcePoint" />
+            <mxPoint x="244" y="30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-7" value="add genre" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;noJump=1;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="255" y="40" as="sourcePoint" />
+            <mxPoint x="404" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-8" value="createGenre()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;noJump=1;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="415" y="53" as="sourcePoint" />
+            <mxPoint x="564" y="53" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="53" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-9" value="add genre successfully" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1" target="WeGQk0YhV3RVz_fk2FbE-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="80" as="sourcePoint" />
+            <mxPoint x="485" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-10" value="add genre successfully" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="243" y="99.70999999999998" as="sourcePoint" />
+            <mxPoint x="93" y="99.70999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-11" value="fill in genre information" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;noJump=1;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="95" y="150" as="sourcePoint" />
+            <mxPoint x="244" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-12" value="find genre" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;noJump=1;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry x="-0.0029" width="80" relative="1" as="geometry">
+            <mxPoint x="255" y="160" as="sourcePoint" />
+            <mxPoint x="404" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="160" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-13" value="deleteGenre()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;noJump=1;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="415" y="170" as="sourcePoint" />
+            <mxPoint x="564" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-14" value="delete genre successfully" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="200" as="sourcePoint" />
+            <mxPoint x="415" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-15" value="delete genre successfully" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="404" y="210" as="sourcePoint" />
+            <mxPoint x="254" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-16" value="delete genre successfully" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="243" y="219.70999999999998" as="sourcePoint" />
+            <mxPoint x="93" y="219.70999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-17" value="" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry y="220" width="630" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-18" value="fill in genre information" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;noJump=1;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="95" y="270" as="sourcePoint" />
+            <mxPoint x="244" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-19" value="find genre" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;noJump=1;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="255" y="280" as="sourcePoint" />
+            <mxPoint x="404" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-20" value="getGenre()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;noJump=1;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="416" y="290" as="sourcePoint" />
+            <mxPoint x="565" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="491" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-21" value="show genre" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="320" as="sourcePoint" />
+            <mxPoint x="415" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-22" value="show genre" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="404" y="330" as="sourcePoint" />
+            <mxPoint x="254" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-23" value="show genre" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="244" y="340" as="sourcePoint" />
+            <mxPoint x="94" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-24" value="modify genre information" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;noJump=1;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="95" y="370" as="sourcePoint" />
+            <mxPoint x="244" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-25" value="save genre&#39;s information" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;noJump=1;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="255" y="380" as="sourcePoint" />
+            <mxPoint x="404" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-26" value="updateGenre()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;noJump=1;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="415" y="390" as="sourcePoint" />
+            <mxPoint x="564" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-27" value="modify genre successfully" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="419.6" as="sourcePoint" />
+            <mxPoint x="415" y="419.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-28" value="modify genre successfully" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="404" y="429.6" as="sourcePoint" />
+            <mxPoint x="254" y="429.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-29" value="modify genre successfully" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="WeGQk0YhV3RVz_fk2FbE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="243" y="439.30999999999995" as="sourcePoint" />
+            <mxPoint x="93" y="439.30999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-30" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;align=right;size=40;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="80" width="50" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-31" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WeGQk0YhV3RVz_fk2FbE-30">
+          <mxGeometry x="20" y="90" width="10" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-32" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="150" y="80" width="20" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WeGQk0YhV3RVz_fk2FbE-32">
+          <mxGeometry x="5" y="80" width="10" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-34" value="Admin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="49" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-35" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="40" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WeGQk0YhV3RVz_fk2FbE-35">
+          <mxGeometry x="15" y="160" width="10" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-37" value="manageGenreUI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="49" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-38" value="Genre Controller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="50" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-39" value="Genre" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="49" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-40" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="620" y="79" width="40" height="640.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-41" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WeGQk0YhV3RVz_fk2FbE-40">
+          <mxGeometry x="15" y="173" width="10" height="387" as="geometry" />
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-42" value="choose function" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;noJump=1;" edge="1" parent="1" source="WeGQk0YhV3RVz_fk2FbE-33">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="165" y="180" as="sourcePoint" />
+            <mxPoint x="314" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeGQk0YhV3RVz_fk2FbE-43" value="add genre successfully" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="474" y="300" as="sourcePoint" />
+            <mxPoint x="324" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
