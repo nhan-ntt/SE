@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T11:21:56.617Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="VVA8Ir-87M5EPsjV_OKO" version="24.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-04-11T11:29:46.736Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="5KXv-jGaF2bUqStXNQkM" version="24.2.3" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="sign up">
     <mxGraphModel dx="857" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -171,6 +171,153 @@
         <mxCell id="9DF3Ovmh4qH8Yo5DE2cz-6" value="1" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="9DF3Ovmh4qH8Yo5DE2cz-4">
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint x="20" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZFMMnrb4XMvgjCZqKReT" name="author">
+    <mxGraphModel dx="857" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o6EkTarZgnl2DxLpTQtW-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Artist&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ artistD: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ name: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ profession: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ imageFilePath: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Artist()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Artist(artistID: int, name: String, profession: String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getArtistID(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setArtistID(artistID: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getName(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setName(name: String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getProfession(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setProfession(profession: String)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getImageFilePath(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ setImageFilePath(imageFilePath: String)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="430" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="o6EkTarZgnl2DxLpTQtW-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ManageArtisitUI&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ addArtist(artistID: int, name: String, profession: String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ deleteArtist(artistID: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ updateArtist(artist: Artist)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ display()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="175" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="o6EkTarZgnl2DxLpTQtW-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AdminMusicController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createArtist(&lt;span style=&quot;background-color: initial;&quot;&gt;artistID: int, name: String, profession: String&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;): Artist&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ deleteArtist(artistID: int)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ updateArtist(artist: Artist)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getArtist(artistName: String): List&amp;lt;Artist&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_ENxXhrkbLLr1ZVMmnd4-1" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o6EkTarZgnl2DxLpTQtW-2" target="o6EkTarZgnl2DxLpTQtW-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="165" as="sourcePoint" />
+            <mxPoint x="570" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ENxXhrkbLLr1ZVMmnd4-2" value="1" style="resizable=0;html=1;align=left;verticalAlign=top;labelBackgroundColor=none;" connectable="0" vertex="1" parent="_ENxXhrkbLLr1ZVMmnd4-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-20" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ENxXhrkbLLr1ZVMmnd4-3" value="1" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="_ENxXhrkbLLr1ZVMmnd4-1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="14" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ENxXhrkbLLr1ZVMmnd4-4" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="o6EkTarZgnl2DxLpTQtW-1" target="o6EkTarZgnl2DxLpTQtW-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="370" as="sourcePoint" />
+            <mxPoint x="230" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ENxXhrkbLLr1ZVMmnd4-5" value="1..*&amp;nbsp;" style="resizable=0;html=1;align=left;verticalAlign=top;labelBackgroundColor=none;" connectable="0" vertex="1" parent="_ENxXhrkbLLr1ZVMmnd4-4">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-30" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ENxXhrkbLLr1ZVMmnd4-6" value="1" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="_ENxXhrkbLLr1ZVMmnd4-4">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-10" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Wo6habSU_fQIkxfdLMcx" name="genre">
+    <mxGraphModel dx="857" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sulbtFRZOJIjJXh1a4VW-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ManageGenreUI&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ addGenre(genreID: int, name: String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ deleteGenre(genreID: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ updateGenre(genre: Genre)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ display()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="220" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sulbtFRZOJIjJXh1a4VW-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AdminMusicController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ addGenre(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;genreID: int, name: String&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;): Genre&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ deleteGenre(genreID: int)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ updateGenre(genre: Genre)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getGenre(): Genre&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="220" y="210" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sulbtFRZOJIjJXh1a4VW-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Genre&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ genreID: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ name: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Genre(genreID: int, name: String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getGenreID(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setGenreID(genreID: String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getName(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setName(name: String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="450" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="KwruYYNwQg712pfcVAiJ-1" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sulbtFRZOJIjJXh1a4VW-1" target="sulbtFRZOJIjJXh1a4VW-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="250" as="sourcePoint" />
+            <mxPoint x="340" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwruYYNwQg712pfcVAiJ-2" value="1" style="resizable=0;html=1;align=left;verticalAlign=top;labelBackgroundColor=none;" connectable="0" vertex="1" parent="KwruYYNwQg712pfcVAiJ-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-20" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwruYYNwQg712pfcVAiJ-3" value="1" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="KwruYYNwQg712pfcVAiJ-1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="14" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwruYYNwQg712pfcVAiJ-4" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sulbtFRZOJIjJXh1a4VW-2" target="sulbtFRZOJIjJXh1a4VW-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="260" as="sourcePoint" />
+            <mxPoint x="350" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwruYYNwQg712pfcVAiJ-5" value="1" style="resizable=0;html=1;align=left;verticalAlign=top;labelBackgroundColor=none;" connectable="0" vertex="1" parent="KwruYYNwQg712pfcVAiJ-4">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwruYYNwQg712pfcVAiJ-6" value="1..*" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="KwruYYNwQg712pfcVAiJ-4">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-10" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DzFMIaOsxOB_91xCc74U" name="song">
+    <mxGraphModel dx="1035" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RRHTvUXNxzzsHbjer9ib-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ManageMusicUI&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ addSong(&lt;span style=&quot;background-color: initial;&quot;&gt;musicID: int, title: String, duration: int, authorID: int, genreID: int, audioFilePath: String, lyric: String, url: String&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ deleteSong(musicID: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ updateSong(song: Music)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ display()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="365" width="170" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RRHTvUXNxzzsHbjer9ib-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Music&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- musicID: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- title: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- duration: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- artistID: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- audioFilePath: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- lyric: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- genreID: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- url: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ imageFilePath: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Music()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Music(musicID: int, title: String, duration: int, authorID: int, genreID: int, audioFilePath: String, lyric: String, url: String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getTitle(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setTtile(title: String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMusicID(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setMusicID(MusicID: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDuration(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setDuration(duration: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getArtistID(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setArtistID(artistID: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getAudioFilePath(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setAudioFilePath(audioFIlePath: String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getGenreID(): int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setGenreID(genreID: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setLyric(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getLyric(lyric: String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getGenreID(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setGenreID(genreID: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getUrl(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setUrl(url: String)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getImageFilePath(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ setImageFilePath(imageFilePath: String)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getArtist(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getGenre(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="185" y="620" width="250" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="RRHTvUXNxzzsHbjer9ib-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AdminMusicController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ createSong(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;musicID: int, title: String, duration: int, authorID: int, genreID: int, audioFilePath: String, lyric: String, url: String&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;): Music&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ deleteSong(musicID: int)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ updateSong(music: Music)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getSong(title: String): List&amp;lt;Music&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="370" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="RRHTvUXNxzzsHbjer9ib-4" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RRHTvUXNxzzsHbjer9ib-1" target="RRHTvUXNxzzsHbjer9ib-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="250" as="sourcePoint" />
+            <mxPoint x="340" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RRHTvUXNxzzsHbjer9ib-5" value="1" style="resizable=0;html=1;align=left;verticalAlign=top;labelBackgroundColor=none;" connectable="0" vertex="1" parent="RRHTvUXNxzzsHbjer9ib-4">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-20" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RRHTvUXNxzzsHbjer9ib-6" value="1" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="RRHTvUXNxzzsHbjer9ib-4">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="14" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RRHTvUXNxzzsHbjer9ib-7" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RRHTvUXNxzzsHbjer9ib-2" target="RRHTvUXNxzzsHbjer9ib-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="260" as="sourcePoint" />
+            <mxPoint x="350" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RRHTvUXNxzzsHbjer9ib-8" value="1..*" style="resizable=0;html=1;align=left;verticalAlign=top;labelBackgroundColor=none;" connectable="0" vertex="1" parent="RRHTvUXNxzzsHbjer9ib-7">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-30" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RRHTvUXNxzzsHbjer9ib-9" value="1" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;" connectable="0" vertex="1" parent="RRHTvUXNxzzsHbjer9ib-7">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-10" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
